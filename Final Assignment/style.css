@@ -1,0 +1,504 @@
+* {
+        margin: 0px;
+        padding: 0px;
+}
+
+
+
+.header {
+        height: 90px;
+        width: 100%;
+        background-color: rgba(16, 128, 234, 1);
+        display: flex;
+        justify-content: center;
+        position: fixed;
+}
+
+.container {
+        width: 95%;
+        
+        display: flex;
+       
+}
+
+.header_container {
+        justify-content: space-between;
+}
+
+  .logo {
+        height: 90px;
+        width: 15%;
+       
+        font-size: 40px;
+        font-family: segoe UI;
+        text-align: center;
+        font-weight: bold;
+        color: white;
+        line-height: 90px;
+} 
+
+.nav {
+        height: 90px;
+        width: 35%;
+       
+        display: flex;
+}
+
+.nav-item {
+        width: 20%;
+        height: 90px;
+        
+        font-family: segoe UI;
+        text-align: center;
+        line-height: 90px;
+        color: white;
+        cursor: pointer;
+        transition: 0.4s;
+}
+
+.nav-item:hover {
+        background-color: white;
+        color: rgba(16, 128, 234, 1);
+}
+
+.banner {
+        height: 95vh;
+        width: 100%;
+        background-color: gray;
+        background-size: cover;
+        background-image: url("./images/jewelry_banner.jpg");
+}
+
+.overlay {
+       
+        height: 95vh;
+        width: 100%;
+        background-color: rgba(0, 0, 0, 0.5);
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
+}
+
+.banner_text {
+        height: 250px;
+        width: 50%;
+        background-color: rgba(145, 191, 235, 0.3);
+        font-family: segoe UI;
+        display: flex;
+        justify-content: center;
+        
+        color: white;
+}
+
+.banner_title {
+        font-size: 40px;
+        margin-top: 90px;
+        text-align: center;
+        
+     
+       
+      
+}
+
+.banner_desc {
+        margin-bottom: 30px;
+        text-align: center;
+        
+}
+
+.padd {
+        padding: 50px;
+       
+}
+
+
+.category_text {
+        height: 250px;
+        width: 50%;
+        background-color: #d4b7ad5c;
+        font-family: segoe UI;
+        display: flex;
+        align-items: center;
+        color: rgb(31, 6, 253);
+}
+.pad {
+        padding: 50px;
+       
+}
+.start_text {
+        font-size: 40px;
+        font-weight: bold;
+        color: black;
+}
+
+.text_between{
+text-align: center;
+color: black;
+
+}
+
+
+
+
+.quote {
+        padding-top: 50px;
+        padding-bottom: 50px;
+        width: 100%;
+       
+        display: flex;
+        justify-content: center;
+        font-family: Segoe UI;
+}
+
+.quote_container {
+        flex-direction: column;
+        align-items: center;
+}
+
+.quote_title {
+        font-size: 40px;
+        margin-bottom: 20px;
+        text-align: center;
+}
+
+
+
+
+
+.portfolio {
+        padding-top: 10px;
+        padding-bottom: 10px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        background-color: #d69b9b;
+        font-family: segoe UI;
+        margin-bottom: 20px;
+}
+
+.portfolio_container {
+        width: 100%;
+        flex-wrap: wrap;
+        
+}
+
+.project {
+        width: 25%;
+        height: 400px;
+        background-color: rgb(173, 235, 240);
+        display: flex;
+        overflow: hidden;
+}
+
+.project_1 {
+        background-image: url("./images/blank.jpg");
+        background-size: cover;
+        margin-bottom: 15px;
+}
+
+.project_2 {
+        background-image: url("./images/hand_bangles.jpg");
+        background-size: cover;
+         margin-bottom: 15px;
+        
+}
+.project_3 {
+        background-image: url("./images/blank.jpg");
+        background-size: cover;
+         margin-bottom: 15px;
+}
+.project_4 {
+        background-image: url("./images/necklace.jpg");
+        background-size: cover;
+         margin-bottom: 15px;
+        
+}
+.project_5 {
+        background-image: url("./images/diamond_ear.jpg");
+        background-size: cover;
+}
+.project_6 {
+        background-image: url("./images/blank.jpg");
+        background-size: cover;
+        
+}
+.project_7 {
+        background-image: url("./images/diamond.jpg");
+        background-size: cover;
+}
+.project_8 {
+        background-image: url("./images/blank.jpg");
+        background-size: cover;
+        
+}
+
+.project_title {
+        color: black;
+        width: 100%;
+        height:400px;
+       text-align: center;
+        line-height: 400px;
+       cursor: pointer;
+        
+}
+
+.start_text {
+        font-size: 40px;
+        font-weight: bold;
+        color: gray;
+}
+
+.quote {
+        padding-top: 50px;
+      
+        width: 100%;
+        
+        display: flex;
+        justify-content: center;
+        font-family: Segoe UI;
+}
+
+.quote_container {
+        flex-direction: column;
+        align-items: center;
+}
+
+.quote_title {
+        font-size: 40px;
+        margin-bottom: 20px;
+}
+.quote_btn{
+    padding-left: 60px;
+    padding-right:60px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    text-transform: uppercase;
+    background-color: rgba(16, 128, 234, 1);
+    color: white;
+    font-weight: bold;
+    font-family: segoe ui;
+    border:none;
+    cursor: pointer;
+    transition: .4s;
+
+}
+.quote_btn:hover{
+        background-color: grey;
+        color: white;
+}
+
+
+.customers {
+        
+        margin-bottom: 25px;
+        padding-top: 50px;
+        padding-bottom: 50px;
+        width: 100%;
+        background-color: #3f39cc;
+        display: flex;
+        justify-content: center;
+}
+
+.custom_contain{
+        justify-content: space-between;
+}
+
+.elements {
+        width: 20%;
+        height: 230px;
+        background-color: rgba(0, 0, 0, 0.4);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-family: Segoe UI;
+        text-align: center;
+        color: white;
+}
+
+.ele_title {
+        font-size: 60px;
+}
+
+.ele_desc {
+        font-size: 25px;
+}
+
+
+
+.album{
+        
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        background-color: #e4e4e4;
+        font-family: segoe UI;
+}
+
+.gallery_contain {
+        width: 100%;
+        flex-wrap: wrap;
+        
+}
+
+.gallery {
+        width: 25%;
+        height: 400px;
+        background-color: rgb(173, 235, 240);
+        display: flex;
+        overflow: hidden;
+}
+
+.slide_1 {
+        background-image: url("./images/gold_ring.jpg");
+        background-size: cover;
+}
+
+.slide_2 {
+        background-image: url("./images/diamond_set.jpg");
+        background-size: cover;
+        align-items:flex-end;
+}
+.slide_3 {
+        background-image: url("./images/earrings.jpg");
+        background-size: cover;
+}
+.slide_4 {
+        background-image: url("./images/engagement_ring.jpg");
+        background-size: cover;
+        align-items: flex-end;
+}
+.slide_5 {
+        background-image: url("./images/necklace_set.jpg");
+        background-size: cover;
+         margin-bottom: 20px;
+}
+.slide_6 {
+        background-image: url("./images/hand_jewelry.jpg");
+        background-size: cover;
+        align-items: flex-end;
+         margin-bottom: 20px;
+}
+.slide_7 {
+        background-image: url("./images/bangles.jpg");
+        background-size: cover;
+         margin-bottom: 20px;
+}
+.slide_8 {
+        background-image: url("./images/jewelry_set.jpg");
+        background-size: cover;
+        align-items: flex-end;
+        margin-bottom: 20px;
+}
+
+.gallery_title {
+        color: white;
+        width: 100%;
+        height: 150px;
+        text-indent: 30px;
+        line-height: 200px;
+        background-color: rgba(16, 128, 234, 0.5);
+        cursor: pointer;
+        transition: 0.4s;
+}
+
+.gallery_title:hover {
+        height: 400px;
+}
+
+
+
+.about{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    width: 100%;
+    
+    display: flex;
+    flex-direction: column;
+    font-family: segoe UI;
+    align-items: center;
+}
+
+.about_container{
+    margin-top: 30px;
+   
+    line-height: 30px;
+    display: inline;
+    text-align: center;
+}
+
+
+
+
+
+
+.footer {
+        padding-top: 50px;
+        padding-bottom: 50px;
+        background-color: #353535;
+        display: flex;
+        justify-content: center;
+}
+
+.footer_child {
+        height: 250px;
+        width: 25%;
+        
+        font-family: segoe UI;
+        display: flex;
+        justify-content: center;
+}
+
+.footer_child_1 {
+        align-items: center;
+        color: white;
+        font-size: 30px;
+}
+
+ul {
+        margin-top: 40px;
+}
+
+li {
+        list-style-type: none;
+        margin-bottom: 10px;
+        color: white;
+        cursor: pointer;
+}
+
+.first {
+        font-size: 22px;
+}
+
+.footer_child_4 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+}
+
+.social_container {
+        width: 60%;
+        justify-content: space-between;
+}
+
+.social_icon {
+        height: 50px;
+        width: 50px;
+        
+        background-size: cover;
+}
+
+.si1 {
+        background-image: url("./images/facebook.png");
+}
+
+.si2 {
+        background-image: url("./images/google.png");
+}
+
+.si3 {
+        background-image: url("./images/linkedin.png");
+}
+
+.si4 {
+        background-image: url("./images/instagram.png");
+}
