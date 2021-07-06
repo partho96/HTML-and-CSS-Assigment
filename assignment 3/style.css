@@ -1,0 +1,39 @@
+ *{ margin: 0px;
+ 	padding: 0px;
+}
+
+
+.section_1{
+width: 100%;
+background-color: #161946;
+display: flex;
+padding-top: 50px;
+padding-bottom: 50px;
+justify-content: space-evenly;
+
+
+}
+
+.section_2{
+
+	width: 100%;
+	background-color: #d21a48;
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+.element_1{
+height: 200px;
+width: 20%;
+background-color: red;
+
+}
+
+.element_2{
+
+	height: 200px;
+	width: 20%;
+	background-color: gray;
+	display: inline-block;
+	margin-left: 50px;
+}
